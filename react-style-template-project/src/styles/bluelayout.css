@@ -1,0 +1,37 @@
+.bluelayout{
+    width: 100%;
+    position: relative;
+    background-color: #1D809F;
+    padding-block: 100px;
+    padding-block: 100px;
+}
+.bluelayout-box{
+    width: 55%;
+    position: relative;
+    left: calc(50% - 27.5%);
+}
+.bluelayout-title{
+    color: #ECB829;
+    text-align: center;
+    font-weight: 600;
+}
+.bluelayout-subtitle{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.bluelayout-elements{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+@media screen and (max-width: 900px) {
+    .bluelayout-elements{
+        grid-template-columns: auto auto;
+    } 
+}
+@media screen and (max-width: 576px) {
+    .bluelayout-elements{
+        grid-template-columns: auto;
+    } 
+}

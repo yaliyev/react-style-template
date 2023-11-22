@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Hero from './components/Hero'
 import "../src/styles/reset.css"
 import SubHero from './components/SubHero'
+import BlueLayout from './components/BlueLayout'
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
     <>
       <Hero heroTitle={"Stylish Portfolio"} heroText={"A Free Bootstrap Theme by Start Bootstrap"} heroButtonText={"Find out more"} />
       <SubHero subHeroTitle={"Stylish Portfolio is the perfect theme for your next project!"} subHeroText={"This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at Unsplash !"}  subHeroButtonText="What we offer" />
+      <BlueLayout/>
     </>
   )
 }
