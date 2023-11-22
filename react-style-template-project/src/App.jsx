@@ -8,6 +8,7 @@ import BlueLayout from './components/BlueLayout'
 import ProjectCard from './components/ProjectCard'
 import OfferButtonBox from './components/OfferButtonBox'
 import Service from './components/Service'
+import LocationMap from './components/LocationMap'
 function App() {
 
 
@@ -34,6 +35,7 @@ function App() {
          <button className='click-me-button'>Click me!</button>
          <button className='look-me-button'>Look at me!</button>
       </BlueLayout>
+      <LocationMap/>
     </>
   )
 }
