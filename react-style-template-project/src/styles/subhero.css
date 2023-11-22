@@ -2,12 +2,19 @@
     width: 100%;
     position: relative;
     background-color: white;
-    padding-block: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .subhero-box{
     width: 45%;
     position: relative;
     left: calc(50% - 22.5%);
+}
+.subhero-mini-title{
+    color: #FFDD87;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
 }
 .subhero-title{
     font-size: 24px;
@@ -17,6 +24,9 @@
 .subhero-elements{
     margin-top: 15px;
     color: rgb(113, 113, 116);
+    display: grid;
+    grid-template-columns: auto auto;
+    
 }
 .subhero-button-box{
     display: flex;
@@ -47,5 +57,7 @@
     }
     .subhero-elements{
         text-align: center;
+        grid-template-columns: auto;
+        grid-row-gap: 50px;
     }
 }
