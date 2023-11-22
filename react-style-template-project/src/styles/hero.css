@@ -42,4 +42,8 @@
     padding: 25px 40px;
     border: none;
     border-radius: 10px;
+    transition: background-color 0.4s;
+}
+.hero-button:hover{
+    background-color: rgb(65, 120, 137);
 }

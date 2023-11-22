@@ -6,7 +6,13 @@
     color: black;
     border: none;
     border-radius: 10px;
+    transition: background-color 0.4s;
 }
+
+.click-me-button:hover{
+    background-color: rgb(225, 215, 215);
+}
+
 .look-me-button{
     margin-top: 20px;
     border: none;
@@ -15,4 +21,10 @@
     background-color: black;
     color: white;
     border-radius: 10px;
+    transition: background-color 0.4s;
 }
+.look-me-button:hover{
+    background-color: rgb(35, 34, 34);
+}
+
+
