@@ -26,10 +26,10 @@ function App() {
       </BlueLayout>
       <Hero heroMediumTitle={"Welcome to your next web site"} heroButtonText={"Download now"} />
       <SubHero subHeroMiniTitle={"PORTFOLIO"} subHeroTitle={"Recent Projects"}>
-        <ProjectCard cardImage={"projectcard1.jpg"} cardName={"Stationary"} cardText={"A yellow pencil with envelopes on a clean,blue backdrop!"} />
-        <ProjectCard cardImage={"projectcard2.jpg"} cardName={"Stationary"} cardText={"A yellow pencil with envelopes on a clean,blue backdrop!"} />
-        <ProjectCard cardImage={"projectcard3.jpg"} cardName={"Stationary"} cardText={"A yellow pencil with envelopes on a clean,blue backdrop!"} />
-        <ProjectCard cardImage={"projectcard1.jpg"} cardName={"Stationary"} cardText={"A yellow pencil with envelopes on a clean,blue backdrop!"} />
+        <ProjectCard cardImage={"https://i.ibb.co/BzH2MN0/projectcard1.jpg"} cardName={"Stationary"} cardText={"A yellow pencil with envelopes on a clean,blue backdrop!"} />
+        <ProjectCard cardImage={"https://i.ibb.co/52q65Y9/projectcard2.jpg"} cardName={"Stationary"} cardText={"A yellow pencil with envelopes on a clean,blue backdrop!"} />
+        <ProjectCard cardImage={"https://i.ibb.co/N15wdSy/projectcard3.jpg"} cardName={"Stationary"} cardText={"A yellow pencil with envelopes on a clean,blue backdrop!"} />
+        <ProjectCard cardImage={"https://i.ibb.co/BzH2MN0/projectcard1.jpg"} cardName={"Stationary"} cardText={"A yellow pencil with envelopes on a clean,blue backdrop!"} />
       </SubHero>
       <BlueLayout blueLayoutSubtitle={"Impossible to resist..."}>
          <button className='click-me-button'>Click me!</button>
