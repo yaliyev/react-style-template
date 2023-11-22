@@ -12,16 +12,17 @@ const SubHero = ({subHeroMiniTitle,subHeroTitle,subHeroText,subHeroButtonText,ch
              <div className="subhero-title">
              {subHeroTitle}
              </div>
+             <div className='subhero-text'>
+             {subHeroText}
+             </div>
              <div className="subhero-elements">
               
-                {subHeroText}
+                
 
                 {children}
               
              </div>
-             <div className="subhero-button-box">
-                <button className='subhero-button'>{subHeroButtonText}</button>
-             </div>
+            
         </div>
 
     </div>

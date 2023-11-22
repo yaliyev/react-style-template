@@ -21,6 +21,9 @@
     font-weight: 600;
     text-align: center;
 }
+.subhero-text{
+    color: rgb(113, 113, 116);
+}
 .subhero-elements{
     margin-top: 15px;
     color: rgb(113, 113, 116);
@@ -30,7 +33,7 @@
 }
 .subhero-button-box{
     display: flex;
-    justify-content: center;
+    justify-content: end;
 }
 .subhero-button{
     margin-top: 45px;
@@ -59,5 +62,8 @@
         text-align: center;
         grid-template-columns: auto;
         grid-row-gap: 50px;
+    }
+    .subhero-button-box{
+        justify-content: center;
     }
 }
