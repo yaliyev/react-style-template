@@ -19,10 +19,17 @@
     margin-top: 10px;
     font-weight: 600;
 }
+.hero-medium-title{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 10px;
+    font-weight: 600;
+}
 .hero-text{
     margin-top: 10px;
     text-align: center;
     font-weight: 600;
+    font-size: 20px;
 }
 .hero-button-box{
     display: flex;
