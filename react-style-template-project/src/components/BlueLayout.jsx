@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styles/bluelayout.css"
-import Service from './Service'
-const BlueLayout = () => {
+
+const BlueLayout = ({blueLayoutSubtitle,children}) => {
     return (
         <div className='bluelayout'>
 
@@ -11,14 +11,12 @@ const BlueLayout = () => {
                     Services
                 </div>
                 <div className="bluelayout-subtitle">
-                    What we offer
+                    {blueLayoutSubtitle}
                 </div>
 
                 <div className="bluelayout-elements">
-                    <Service />
-                    <Service />
-                    <Service />
-                    <Service />
+                    {children}
+                   
                 </div>
 
             </div>

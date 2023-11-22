@@ -1,0 +1,18 @@
+.click-me-button{
+    margin-top: 20px;
+    margin-left: 60%;
+    padding-block: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+}
+.look-me-button{
+    margin-top: 20px;
+    border: none;
+    margin-left: 50%;
+    padding-block: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}

@@ -2,10 +2,12 @@ import React from 'react'
 import { useState } from 'react'
 import Hero from './components/Hero'
 import "../src/styles/reset.css"
+import '../src/styles/buttons.css'
 import SubHero from './components/SubHero'
 import BlueLayout from './components/BlueLayout'
 import ProjectCard from './components/ProjectCard'
 import OfferButtonBox from './components/OfferButtonBox'
+import Service from './components/Service'
 function App() {
 
 
@@ -15,7 +17,12 @@ function App() {
       <SubHero subHeroTitle={"Stylish Portfolio is the perfect theme for your next project!"} subHeroText={"This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at Unsplash !"} >
         <OfferButtonBox subHeroButtonText="What we offer" />
       </SubHero>
-      <BlueLayout />
+      <BlueLayout blueLayoutSubtitle={"What we offer"}>
+        <Service />
+        <Service />
+        <Service />
+        <Service />
+      </BlueLayout>
       <Hero heroMediumTitle={"Welcome to your next web site"} heroButtonText={"Download now"} />
       <SubHero subHeroMiniTitle={"PORTFOLIO"} subHeroTitle={"Recent Projects"}>
         <ProjectCard cardImage={"projectcard1.jpg"} cardName={"Stationary"} cardText={"A yellow pencil with envelopes on a clean,blue backdrop!"} />
@@ -23,6 +30,10 @@ function App() {
         <ProjectCard cardImage={"projectcard3.jpg"} cardName={"Stationary"} cardText={"A yellow pencil with envelopes on a clean,blue backdrop!"} />
         <ProjectCard cardImage={"projectcard1.jpg"} cardName={"Stationary"} cardText={"A yellow pencil with envelopes on a clean,blue backdrop!"} />
       </SubHero>
+      <BlueLayout blueLayoutSubtitle={"Impossible to resist..."}>
+         <button className='click-me-button'>Click me!</button>
+         <button className='look-me-button'>Look at me!</button>
+      </BlueLayout>
     </>
   )
 }
